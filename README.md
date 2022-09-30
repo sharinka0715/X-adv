@@ -1,6 +1,6 @@
 # $\mathcal{X}$-Adv:  Physical Adversarial Object Attacks against X-ray Prohibited Item Detection
 
-![](C:\Users\guojun\Desktop\xrayadv\assets\framework.jpg)
+![](./assets/framework.jpg)
 
 ## Introduction
 
