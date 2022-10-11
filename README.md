@@ -1,10 +1,10 @@
-# $\mathcal{X}$-Adv:  Physical Adversarial Object Attacks against X-ray Prohibited Item Detection
+# X-Adv:  Physical Adversarial Object Attacks against X-ray Prohibited Item Detection
 
 ![](./assets/framework.jpg)
 
 ## Introduction
 
-This repository is the official PyTorch implemetation of paper "$\mathcal{X}$-Adv: Physical Adversarial Object Attacks against X-ray Prohibited Item Detection".
+This repository is the official PyTorch implemetation of paper "X-Adv: Physical Adversarial Object Attacks against X-ray Prohibited Item Detection".
 
 ## Install
 
@@ -75,7 +75,7 @@ python train_frcnn.py --dataset OPIXray/HiXray/XAD \
 
 ### Attack
 
-Attack SSD models (original, DOAM, LIM) with $\mathcal{X}$-Adv:
+Attack SSD models (original, DOAM, LIM) with X-Adv:
 
 ```shell
 python attack_ssd.py --dataset OPIXray/HiXray/XAD \
@@ -86,7 +86,7 @@ python attack_ssd.py --dataset OPIXray/HiXray/XAD \
     --save_path ./results
 ```
 
-Attack Faster R-CNN with $\mathcal{X}$-Adv:
+Attack Faster R-CNN with X-Adv:
 
 ```shell
 python attack_ssd.py --dataset OPIXray/HiXray/XAD \
@@ -102,7 +102,7 @@ Below are some combinations of `patch_place` and `patch_material`:
 | ----------------- | ------------- | ---------------- |
 | meshAdv           | fix           | iron_fix         |
 | AdvPatch          | fix_patch     | iron             |
-| $\mathcal{X}$-Adv | reinforce     | iron             |
+| X-Adv | reinforce     | iron             |
 
 ### Evaluation
 
