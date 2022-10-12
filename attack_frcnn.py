@@ -113,6 +113,7 @@ def get_place_reinforce(images, bboxes, group, faces, trainer):
         rend[~mask] = 1
         rend_group.append(rend)
 
+    # Using running mean/std to stablize the reward
     reward_ms = rl_utils.RunningMeanStd(shape=(1,), device="cuda:0")
 
     last_reward = 0
