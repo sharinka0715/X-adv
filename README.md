@@ -89,7 +89,7 @@ python attack_ssd.py --dataset OPIXray/HiXray/XAD \
 Attack Faster R-CNN with X-Adv:
 
 ```shell
-python attack_ssd.py --dataset OPIXray/HiXray/XAD \
+python attack_frcnn.py --dataset OPIXray/HiXray/XAD \
     --patch_place reinforce \
     --ckpt_path ../weights/model.pth \
     --patch_material iron \
@@ -118,7 +118,7 @@ python test_ssd.py --dataset OPIXray/HiXray/XAD \
 Evaluate Faster R-CNN:
 
 ```shell
-python test_ssd.py --dataset OPIXray/HiXray/XAD \
+python test_frcnn.py --dataset OPIXray/HiXray/XAD \
     --ckpt_path ../weights/model.pth \
     --phase path/to/your/adver_image
 ```
