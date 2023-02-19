@@ -6,6 +6,8 @@
 
 This repository is the official PyTorch implemetation of paper "X-Adv: Physical Adversarial Object Attacks against X-ray Prohibited Item Detection".
 
+**XAD download link: please go to [this website](https://github.com/DIG-Beihang/XrayDetection/) to acquire download link.**
+
 ## Install
 
 ### Requirements
@@ -126,6 +128,15 @@ python test_frcnn.py --dataset OPIXray/HiXray/XAD \
 ## Citation
 
 If this work helps your research, please cite the following paper.
+
+```
+@inproceedings{liu2023xadv,
+  title={X-Adv: Physical Adversarial Object Attacks against X-ray Prohibited Item Detection},
+  author={Liu, Aishan and Guo, Jun and Wang, Jiakai and Liang, Siyuan and Tao, Renshuai and Zhou, Wenbo and Liu, Cong and Liu, Xianglong and Tao, Dacheng},
+  booktitle={32st USENIX Security Symposium (USENIX Security 23)},
+  year={2022}
+}
+```
 
 ## Reference
 
