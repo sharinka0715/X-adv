@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This repository is the official PyTorch implemetation of paper "X-Adv: Physical Adversarial Object Attacks against X-ray Prohibited Item Detection".
+This repository is the official PyTorch implemetation of paper "[X-Adv: Physical Adversarial Object Attacks against X-ray Prohibited Item Detection](https://arxiv.org/abs/2302.09491)".
 
 **XAD download link: please go to [this website](https://github.com/DIG-Beihang/XrayDetection/) to acquire download link.**
 
